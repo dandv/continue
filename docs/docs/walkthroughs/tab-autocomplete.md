@@ -12,10 +12,13 @@ If you want to have the best autocomplete experience, we recommend using Codestr
     "title": "Codestral",
     "provider": "mistral",
     "model": "codestral-latest",
-    "apiKey": "YOUR_API_KEY"
+    "apiKey": "YOUR_API_KEY",
+    "apiBase": "https://codestral.mistral.ai/v1/"
   }
 }
 ```
+
+The setting `"apiBase": "https://codestral.mistral.ai/v1/"` is [only necessary for JetBrains IDEs](./walkthroughs/set-up-codestral#temporary-workaround-for-jetbrains) until the new version of our extension is approved.
 
 ## Setting up with Ollama (default)
 
